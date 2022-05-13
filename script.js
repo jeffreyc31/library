@@ -1,4 +1,5 @@
 let myLibrary = [];
+let newButton = document.getElementById('new-book');
 
 function Book(title, author, pages) {
     this.title = title;
@@ -29,3 +30,7 @@ function fillLibrary() {
         newCard.appendChild(bookPages);
     });
 }
+
+newButton.addEventListener('click', (e) => {
+
+})

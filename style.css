@@ -59,6 +59,58 @@ main {
     font-size: 18px;
 }
 
+.add-new-window {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: var(--white);
+    padding: 40px 80px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.add-new-window h2 {
+    margin: 0 auto;
+}
+
+.add-new-window form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+#new-title,
+#new-author,
+#new-pages {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 25px;
+    font-size: 18px;
+    padding-left: 5px;
+    border-style: solid rgb(255, 255, 255);
+}
+
+#new-read input {
+    margin-left: 10px;
+}
+
+#confirm-add {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--highlight);
+    color: var(--white);
+}
+
+#cancel {
+    margin-top: 10px;
+    background-color: var(--white);
+    border-style: none;
+    font-size: 18px;
+}
+
 #new-book {
     width: 150px;
     height: 50px;
