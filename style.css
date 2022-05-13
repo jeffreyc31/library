@@ -32,17 +32,6 @@ main {
     padding: 20px var(--side-pad);
 }
 
-#new-book {
-    width: 150px;
-    height: 50px;
-    margin-left: auto;
-    font-size: 25px;
-    border-style: none;
-    border-radius: 10px;
-    background-color: var(--gray);
-    color: black;
-}
-
 #card-grid {
     background-color: var(--gray);
     display: grid;
@@ -66,6 +55,27 @@ main {
     border-radius: 20px;
     border-top: solid var(--highlight);
     border-top-width: 10px;
+    font-size: 20px;
 }
 
-#new {}
+#new-book {
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: var(--gray);
+    color: black;
+}
+
+.remove {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(187, 2, 2);
+    color: var(--white);
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+}
