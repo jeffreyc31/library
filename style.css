@@ -67,6 +67,7 @@ main {
     padding: 40px 80px;
     font-size: 20px;
     border-radius: 10px;
+    margin: auto;
 }
 
 .add-new-window h2 {
@@ -95,7 +96,7 @@ main {
 }
 
 #confirm-add {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
