@@ -29,3 +29,5 @@ function addBook() {
         newCard.appendChild(bookPages);
     });
 }
+
+addBook();
