@@ -44,8 +44,9 @@ main {
 }
 
 .card {
+    min-height: 250px;
     background-color: var(--white);
-    padding: 20px 30px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -55,7 +56,7 @@ main {
     border-radius: 20px;
     border-top: solid var(--highlight);
     border-top-width: 10px;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 #new-book {
