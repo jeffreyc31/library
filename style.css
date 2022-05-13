@@ -9,9 +9,16 @@
     --gray: rgb(201, 201, 201);
 }
 
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+}
+
 header {
     padding: 10px 30px;
     background-color: var(--white);
+    grid-row: 0 / 1;
 }
 
 main {
@@ -22,6 +29,7 @@ main {
     grid-auto-flow: row;
     padding: 30px 50px;
     gap: 50px;
+    grid-row: 1 6;
 }
 
 .card {
