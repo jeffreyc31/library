@@ -10,7 +10,7 @@ const potter = new Book("harry potter", "jk rowling", '1');
 myLibrary.push(potter);
 
 
-function addBook() {
+function fillLibrary() {
     myLibrary.forEach(book => {
         let cardGrid = document.getElementById('card-grid');
         let newCard = document.createElement('div');
@@ -29,5 +29,3 @@ function addBook() {
         newCard.appendChild(bookPages);
     });
 }
-
-addBook();
